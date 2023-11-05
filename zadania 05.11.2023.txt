@@ -1,0 +1,49 @@
+zadania w postaci kodu wysylam w zdjeciach.
+zadania z tekstem zostawiam tutaj
+
+
+zadanie 3)
+
+Console.WriteLine() stosuje podzial na wiersze po zakonczeniu wykonywania polecenia.
+Console.Wite() nie dokonuje przeniesienia do nastepnej linii.
+Oba wyswietlaja tekst tak samo.
+Tak, Console.Write() jest poprawne
+
+
+zadanie 5)
+program z lancucha powyzej, wyciaga ciag znakow. zaczynajac od 4 znaku (w tym przypadku 6 miejsce w tablicach)
+i wyciaga 2 znaki. Dlatego w konsoli pojawia sie "pi"
+
+
+zadanie 6)
+a)
+kod porownuje mojwiek i liczbe 40. jezeli mojwiek jest wieksze to twojwiek przyjmie wartosc 40.
+jezeli mojwiek>40==false to twojwiek przyjmuje wartosc 20
+
+b)
+kod w tym podpunkcie jest taki sam jak kod wyzej z roznią że mojwiek ma byc mniejszy od 40 zeby twojwiek wynosil 40
+
+
+zadanie 7)
+a)
+program ma za sadanie z zmiennych imie i nazwisko zlozyc lancuch 'name' i nastepnie wyswietlic na ekranie
+[zakladajac ze mialo byc Console.WriteLine(name);]
+
+b)
+ten program pelni tą samą funkcje co poprzedni. roznica polega na zastosowaniu gotowej funkcji do laczenia napisow
+czyli string.Concat(), gdzie w nawiasach umieszczamy zmienne do przeprowadzenia konkatenacji
+
+c)
+program ma na celu to samo co poprzednie znowu korzystajac z innego sposobu na stworzenie wspolnego lancucha w nowej
+zmiennej. w zmiennej imie jak i nazwisko są zawarte spacje, jednak ta o ktora chodzi w poleceniu jest zwarta w 
+zmiennej nazwisko.
+
+zadanie 8)
+dolar pelni w tym przypadku funkcje ktora mowi ze w danym lancuchu sa zawarte zmienne w nawiasach klamrowych.
+bez znaku dolara, kompilator odczytal by zmienne jako zwykly tekst
+
+zadanie 10)
+namespace to uchwyt/id ktory tworzy przestrzen w ktorych trzymamy program. namespace musi byc unikatowy
+zeby inny program chcac odwolac sie do niego nie mial watpliwosci
+
+
